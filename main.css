@@ -1,0 +1,60 @@
+  #container{
+  	  border: 4px solid blue;
+  	  width:800px;
+  	  height: 300px;
+  	  margin: 0 auto;
+  	  text-align: center;
+  	  
+  		
+  	
+  }
+  li img{
+  	float: left;
+  	
+  }
+  #quest ul li{
+   list-style-type: none;
+  }
+  .theme{
+  	display: inline;
+  	list-style-type: none;
+  	margin: 0 auto;
+  		
+    	} 
+    .theme h1{
+    	display: inline-block;
+       	text-align: center;
+       	margin: 0; 
+    	
+             }	
+    nav p{
+    	display: inline-block;
+    	padding: 20px; 
+    	
+         }
+    form h3{
+    	letter-spacing: 0.2em;
+    }     
+    .navigate #prevq{
+    	float: left;
+    	padding-left: 10px;
+    	          }     
+         
+    .navigate #nextq{
+    	float: right;
+    	padding-right: 10px;
+    	          }
+    .startQuiz{
+    	text-align: center;
+    	background-color: red;
+    	   	
+        }	
+        
+           
+             	
+    #end{
+    	text-align: center;
+    	padding: 40px;
+    	position: relative;
+    	   	
+    }
