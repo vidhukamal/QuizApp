@@ -4,16 +4,25 @@
   	  height: 300px;
   	  margin: 0 auto;
   	  text-align: center;
+  	  background-color: white;
   	  
   		
   	
   }
+  body{
+  	background-image:url('quiz2.jpg');
+  	
+
+  }
   li img{
   	float: left;
+  	
   	
   }
   #quest ul li{
    list-style-type: none;
+  padding-right: 60px;
+  
   }
   .theme{
   	display: inline;
@@ -54,7 +63,8 @@
              	
     #end{
     	text-align: center;
-    	padding: 40px;
+    	margin: 40px;
     	position: relative;
+    	display: inline;
     	   	
     }

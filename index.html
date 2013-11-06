@@ -28,10 +28,10 @@
 				<div id="quest">
 				<h3>1.What is the capital of Singapore?</h3>	
 				<ul>
-					<li id="choice_0"><input type="radio" name="answer" value="chennai" class="choices"/><span>Chennai</span></li>
-					<li id="choice_1"><input type="radio" name="answer" value="chennai" class="choices"/><span>Chennai</span></li>
-					<li id="choice_2"><input type="radio" name="answer" value="chennai" class="choices"/><span>Chennai</span></li>
-					<li id="choice_3"><input type="radio" name="answer" value="chennai" class="choices"/><span>Chennai</span></li>
+					<li id="choice_0"><input type="radio" name="answer" value="0" class="choices"/><span>Chennai</span></li>
+					<li id="choice_1"><input type="radio" name="answer" value="1" class="choices"/><span>Chennai</span></li>
+					<li id="choice_2"><input type="radio" name="answer" value="2" class="choices"/><span>Chennai</span></li>
+					<li id="choice_3"><input type="radio" name="answer" value="3" class="choices"/><span>Chennai</span></li>
 				</ul>
 			    </div>
 				<!--<input type="button" value="Next" class="prevQuestion"></input>
@@ -39,8 +39,8 @@
 								
 			</form>	
 			<div class="navigate">
-				<div id="prevq">Prev</div>
-				<div id="nextq">Next</div>
+				<a href="#" id="prevq">Prev</a>
+				<a href="#" id="nextq">Next</a>
 			</div>
 				
 			</div>
@@ -48,7 +48,9 @@
 			
 				<div id="end" >
 					
-				<input type="button" value="show Results" id="showresult" size="80" >
+				<!--<input type="button" value="Show Answers" id="showAnswer"  size="80" >	-->
+				<input type="button" value="Show Results" id="showResult" class="show" size="80" >
+				<span id="result">Your score:</span>
 				
 				</div>
 			
