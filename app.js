@@ -19,6 +19,7 @@ $(document).ready(function(){
 		
 		//Hide the Start Quiz button
 		$(this).hide("slow");
+		$('#showResult').hide("slow");
 		
 		//Show the first question
 		showQuestion(currentQuestion);
@@ -30,6 +31,7 @@ $(document).ready(function(){
 	$("#nextq").click(function(){
 		if(currentQuestion >= questions.length){
 			alert("End of quiz. Click Show Results to see your results");
+			$("#showResult").show("fast");
 		}
 		else{
 			currentQuestion++;
