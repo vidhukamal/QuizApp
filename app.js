@@ -34,6 +34,9 @@ $(document).ready(function(){
 			$("#showResult").show("fast");
 		}
 		else{
+			if (questions[currentQuestion].user_answer===-1){
+				alert("Please select an answer")
+			}
 			currentQuestion++;
 			showQuestion(currentQuestion);
 		}
